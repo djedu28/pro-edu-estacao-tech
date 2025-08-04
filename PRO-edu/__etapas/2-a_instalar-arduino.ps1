@@ -29,6 +29,8 @@ if (-not $instaladorArduino) {
 Write-Host "Executando instalador do Arduino IDE..."
 # O parâmetro -Wait faz com que o script aguarde a conclusão do instalador.
 Start-Process -FilePath $instaladorArduino.FullName -Wait
+# O parâmetro -ArgumentList "/S" executa a instalação em modo silencioso.
+# Start-Process -FilePath $instaladorArduino.FullName -ArgumentList "/S" -Wait
 
 
 # --- Instalação dos DRIVERS ---
@@ -46,6 +48,7 @@ Write-Host "Executando instalador do driver..."
 # Alguns instaladores de driver precisam ser executados a partir de seu próprio diretório.
 # Start-Process tem um parâmetro -WorkingDirectory para lidar com isso de forma limpa.
 Start-Process -FilePath $instaladorDriver.FullName -WorkingDirectory $instaladorDriver.DirectoryName -Wait
+# Start-Process -FilePath $instaladorDriver.FullName -WorkingDirectory $instaladorDriver.DirectoryName -ArgumentList "/S" -Wait
 
 # --- Conclusão ---
 Write-Host ""
