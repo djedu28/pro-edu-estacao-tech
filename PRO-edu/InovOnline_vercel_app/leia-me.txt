@@ -1,0 +1,5 @@
+Plataforma InovOnline. Plataforma digital educacional, gamificada e gratuira! 
+Para democratizar os conhecimentos da Robótica, Programação e Eletrônica básica. 
+Desenvolvida Por: Eduardo Santos e Sophia Pinto em 2021
+
+url: https://InovOnline.vercel.app
