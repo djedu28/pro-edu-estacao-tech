@@ -1,0 +1,5 @@
+*.exe
+*.msi
+PRO-edu/ARDUINO/CH341SER_35/*
+PRO-edu/CURA/UltiMaker-Cura-*.exe
+PRO-edu/ARDUINO/arduino-ide_*.exe
