@@ -7,4 +7,6 @@
 @REM # Define o diretório de trabalho como a pasta raiz do projeto
 @REM Set-Location -Path $PSScriptRoot
 
+cmd /C "./estech.prof/v_instalar.bat"
+
 cmd /C "./PRO-edu/2_instalar-tudo.bat"
